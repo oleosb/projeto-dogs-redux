@@ -24,7 +24,7 @@ const UserHeader = () => {
   return (
     <header className={styles.header}>
       <h1 className="title">{title}</h1>
-      <UserHeaderNav />;
+      <UserHeaderNav />
     </header>
   );
 };
