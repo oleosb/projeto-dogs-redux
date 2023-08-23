@@ -19,8 +19,8 @@
 }
 
 .nav a:hover,
-.nav button:hover,
 .nav a:focus,
+.nav button:hover,
 .nav button:focus {
   background: white;
   box-shadow: 0 0 0 3px #eee;
@@ -28,13 +28,13 @@
   outline: none;
 }
 
-.nav a:global(.active) {
+.nav a.active {
   background: white;
   box-shadow: 0 0 0 3px #fea;
   border-color: #fb1;
 }
 
-.nav a:global(.active) svg > * {
+.nav a.active svg > * {
   fill: #fb1;
 }
 
@@ -53,12 +53,12 @@
 }
 
 .mobileButton::after {
-  content: "";
+  content: '';
   display: block;
   width: 1.2rem;
   height: 2px;
-  background: currentColor;
   border-radius: 2px;
+  background: currentColor;
   box-shadow: 0 6px currentColor, 0 -6px currentColor;
   transition: 0.2s;
 }
@@ -98,8 +98,8 @@
   transition: 0.3s;
   transform: initial;
   opacity: 1;
-  z-index: 100;
   pointer-events: initial;
+  z-index: 100;
 }
 
 .navMobile a,

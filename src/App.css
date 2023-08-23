@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
+  padding-top: 4rem;
+  margin: 0px;
   color: #333;
   --type-first: Helvetica, Arial, sans-serif;
-  --type-second: "Spectral", Georgia;
+  --type-second: 'Spectral', Georgia;
   font-family: var(--type-first);
-  padding-top: 4rem;
 }
 
 h1,
@@ -18,14 +18,14 @@ h2,
 h3,
 h4,
 p {
-  margin: 0;
+  margin: 0px;
 }
 
 ul,
 li {
   list-style: none;
   padding: 0px;
-  margin: 0;
+  margin: 0px;
 }
 
 img {
@@ -60,13 +60,13 @@ a {
   font-family: var(--type-second);
   line-height: 1;
   font-size: 3rem;
-  position: relative;
   margin: 1rem 0;
+  position: relative;
   z-index: 1;
 }
 
 .title::after {
-  content: "";
+  content: '';
   display: block;
   width: 1.5rem;
   height: 1.5rem;
@@ -97,7 +97,7 @@ a {
   min-height: calc(100vh + 10rem);
 }
 
-.appBody {
+.AppBody {
   flex: 1;
 }
 

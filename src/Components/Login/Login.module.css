@@ -7,8 +7,8 @@
 
 .login::before {
   display: block;
-  content: "";
-  background: url("../../Assets/login.jpg") no-repeat center center;
+  content: '';
+  background: url('../../Assets/login.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -25,7 +25,7 @@
   .login::before {
     display: none;
   }
-  .forms{
+  .forms {
     max-width: 100%;
   }
 }
