@@ -1,3 +1,3 @@
 # App Dogs (Instagram Clone)
 
-App de fotos de cães
+App Dogs adaptado com Redux.
